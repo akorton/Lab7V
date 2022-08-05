@@ -1,0 +1,6000 @@
+insert key1000
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1001
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1002
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1003
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1004
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1005
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1006
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1007
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1008
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1009
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1010
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1011
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1012
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1013
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1014
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1015
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1016
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1017
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1018
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1019
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1020
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1021
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1022
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1023
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1024
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1025
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1026
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1027
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1028
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1029
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1030
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1031
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1032
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1033
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1034
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1035
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1036
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1037
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1038
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1039
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1040
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1041
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1042
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1043
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1044
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1045
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1046
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1047
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1048
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1049
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1050
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1051
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1052
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1053
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1054
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1055
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1056
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1057
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1058
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1059
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1060
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1061
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1062
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1063
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1064
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1065
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1066
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1067
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1068
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1069
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1070
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1071
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1072
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1073
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1074
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1075
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1076
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1077
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1078
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1079
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1080
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1081
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1082
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1083
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1084
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1085
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1086
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1087
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1088
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1089
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1090
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1091
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1092
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1093
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1094
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1095
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1096
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1097
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1098
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1099
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1100
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1101
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1102
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1103
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1104
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1105
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1106
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1107
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1108
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1109
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1110
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1111
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1112
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1113
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1114
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1115
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1116
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1117
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1118
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1119
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1120
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1121
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1122
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1123
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1124
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1125
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1126
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1127
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1128
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1129
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1130
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1131
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1132
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1133
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1134
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1135
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1136
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1137
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1138
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1139
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1140
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1141
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1142
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1143
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1144
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1145
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1146
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1147
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1148
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1149
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1150
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1151
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1152
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1153
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1154
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1155
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1156
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1157
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1158
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1159
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1160
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1161
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1162
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1163
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1164
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1165
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1166
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1167
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1168
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1169
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1170
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1171
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1172
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1173
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1174
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1175
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1176
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1177
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1178
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1179
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1180
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1181
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1182
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1183
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1184
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1185
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1186
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1187
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1188
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1189
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1190
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1191
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1192
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1193
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1194
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1195
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1196
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1197
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1198
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1199
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1200
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1201
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1202
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1203
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1204
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1205
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1206
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1207
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1208
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1209
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1210
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1211
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1212
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1213
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1214
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1215
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1216
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1217
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1218
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1219
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1220
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1221
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1222
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1223
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1224
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1225
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1226
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1227
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1228
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1229
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1230
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1231
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1232
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1233
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1234
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1235
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1236
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1237
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1238
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1239
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1240
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1241
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1242
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1243
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1244
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1245
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1246
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1247
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1248
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1249
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1250
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1251
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1252
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1253
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1254
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1255
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1256
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1257
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1258
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1259
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1260
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1261
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1262
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1263
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1264
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1265
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1266
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1267
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1268
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1269
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1270
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1271
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1272
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1273
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1274
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1275
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1276
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1277
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1278
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1279
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1280
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1281
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1282
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1283
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1284
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1285
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1286
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1287
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1288
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1289
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1290
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1291
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1292
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1293
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1294
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1295
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1296
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1297
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1298
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1299
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1300
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1301
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1302
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1303
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1304
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1305
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1306
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1307
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1308
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1309
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1310
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1311
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1312
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1313
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1314
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1315
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1316
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1317
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1318
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1319
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1320
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1321
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1322
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1323
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1324
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1325
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1326
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1327
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1328
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1329
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1330
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1331
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1332
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1333
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1334
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1335
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1336
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1337
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1338
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1339
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1340
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1341
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1342
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1343
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1344
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1345
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1346
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1347
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1348
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1349
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1350
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1351
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1352
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1353
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1354
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1355
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1356
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1357
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1358
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1359
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1360
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1361
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1362
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1363
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1364
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1365
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1366
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1367
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1368
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1369
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1370
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1371
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1372
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1373
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1374
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1375
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1376
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1377
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1378
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1379
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1380
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1381
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1382
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1383
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1384
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1385
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1386
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1387
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1388
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1389
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1390
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1391
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1392
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1393
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1394
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1395
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1396
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1397
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1398
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1399
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1400
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1401
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1402
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1403
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1404
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1405
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1406
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1407
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1408
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1409
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1410
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1411
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1412
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1413
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1414
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1415
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1416
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1417
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1418
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1419
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1420
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1421
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1422
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1423
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1424
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1425
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1426
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1427
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1428
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1429
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1430
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1431
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1432
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1433
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1434
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1435
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1436
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1437
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1438
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1439
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1440
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1441
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1442
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1443
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1444
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1445
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1446
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1447
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1448
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1449
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1450
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1451
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1452
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1453
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1454
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1455
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1456
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1457
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1458
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1459
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1460
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1461
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1462
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1463
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1464
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1465
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1466
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1467
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1468
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1469
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1470
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1471
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1472
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1473
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1474
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1475
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1476
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1477
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1478
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1479
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1480
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1481
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1482
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1483
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1484
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1485
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1486
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1487
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1488
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1489
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1490
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1491
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1492
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1493
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1494
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1495
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1496
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1497
+Apache Silver
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1498
+Apache Bronze
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
+insert key1499
+Apache Gold
+89 3
+1
+1
+western
+PG
+Harald G. Petersson
+1904-10-16
+brown
+black
+Germany
