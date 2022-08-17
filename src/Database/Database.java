@@ -1,6 +1,7 @@
 package Database;
 
 import Client.Client;
+import Database.Services.SetUp;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,8 +10,7 @@ import java.util.Properties;
 import java.util.logging.Logger;
 
 public class Database {
-    private static String localUrl = "";
-    private static String heliosUrl = "";
+    private static String databaseUrl = System.getenv("DATABASE_URL");
     private static final Logger log = Logger.getLogger(Client.class.getName());
     private static Connection connection;
 
@@ -21,6 +21,10 @@ public class Database {
         Properties properties = new Properties();
         properties.setProperty("user", System.getenv("USERNAME"));
         properties.setProperty("password", System.getenv("PASSWORD"));
-        connection = DriverManager.getConnection(localUrl, properties);
+        connection = DriverManager.getConnection(databaseUrl, properties);
+    }
+
+    public static void setUpDatabase() throws SQLException {
+        SetUp.setUp(connection.createStatement());
     }
 }

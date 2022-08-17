@@ -2,14 +2,18 @@ package Server;
 
 import Client.Interpretator;
 import Client.Client;
+import Database.Database;
 import Xml.Xml;
 import Commands.*;
 import Movie.*;
 import Interaction.*;
+
+import javax.xml.crypto.Data;
 import java.io.*;
 import java.net.*;
 import java.nio.ByteBuffer;
 import java.nio.channels.DatagramChannel;
+import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.Hashtable;
@@ -40,10 +44,20 @@ public class Server {
                     return;
                 }
             } else {
-                interaction.print(true, "File not found or incorrect input.");
+                interaction.print("File not found or incorrect input.");
             }
         } else {
-            interaction.print(true, "File not found or incorrect input.");
+            interaction.print("File not found or incorrect input.");
+        }
+
+        try {
+            Database.connectToDatabase();
+            Database.setUpDatabase();
+        } catch (SQLException e){
+            interaction.print("""
+                    Some error occurred while trying to connect to database!
+                    WARNING!!!
+                    None of the changes of this session won't be consistent(saved)!""");
         }
 
         try {
