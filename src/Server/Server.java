@@ -34,30 +34,22 @@ public class Server {
     private static byte[] buffBytes;
 
     public static void main(String[] args) throws Exception {
-        if (Arrays.stream(args).count() != 0) {
-            String fileName = args[0];
-            if (fileName != null) {
-                file = new File(fileName);
-                log.info("File found!\n\nLaunch preparation.");
-                if (!prepare()) {
-                    log.info("Launch stop.");
-                    return;
-                }
-            } else {
-                interaction.print("File not found or incorrect input.");
-            }
-        } else {
-            interaction.print("File not found or incorrect input.");
+        try {
+            log.info("Connecting to database...");
+            Database.connectToDatabase();
+            Database.setUpDatabase();
+            log.info("Successfully connected!!!\n");
+        } catch (SQLException e){
+            interaction.print("Some error occurred while trying to connect to database!\n" +
+                    "WARNING!!!\nNone of the changes of this session won't be consistent(saved)!");
         }
 
         try {
-            Database.connectToDatabase();
-            Database.setUpDatabase();
-        } catch (SQLException e){
-            interaction.print("""
-                    Some error occurred while trying to connect to database!
-                    WARNING!!!
-                    None of the changes of this session won't be consistent(saved)!""");
+            log.info("Uploading collection from database...");
+            collection = Database.getCollection();
+            log.info("Successfully loaded!");
+        } catch (Exception e){
+            interaction.print("Some error occurred while uploading collection from database!");
         }
 
         try {

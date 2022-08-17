@@ -1,17 +1,17 @@
 package Database;
 
-import Client.Client;
+import Database.Services.CommonQueries;
 import Database.Services.SetUp;
+import Movie.Movie;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Hashtable;
 import java.util.Properties;
-import java.util.logging.Logger;
 
 public class Database {
     private static String databaseUrl = System.getenv("DATABASE_URL");
-    private static final Logger log = Logger.getLogger(Client.class.getName());
     private static Connection connection;
 
     private Database(){}
@@ -26,5 +26,9 @@ public class Database {
 
     public static void setUpDatabase() throws SQLException {
         SetUp.setUp(connection.createStatement());
+    }
+
+    public static Hashtable<String, Movie> getCollection() throws Exception{
+        return CommonQueries.getCollection(connection.createStatement());
     }
 }
