@@ -1,5 +1,6 @@
 package Commands;
 
+import Database.Database;
 import Interaction.Message;
 import Interaction.Preprocessing;
 import Interaction.*;
@@ -40,6 +41,8 @@ public class Insert implements Command, Preprocessing {
                 if (collection.containsKey(argument)) {
                     return  new Message(true, "This key is already used.");
                 } else {
+                    boolean insertToDBResult = Database.insert(argument, this.movie);
+                    if (!insertToDBResult) return new Message(true, "Element wasn't inserted!");
                     collection.put(argument, this.movie);
                     if ((update == 0) && (!fromScript)) {
                         return  new Message(true, "Element insert successful.");

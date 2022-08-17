@@ -40,4 +40,8 @@ public class Database {
     public static boolean deleteAll(Hashtable<String, Movie> collection) throws SQLException{
         return CommonQueries.deleteAll(collection);
     }
+
+    public static boolean insert(String key, Movie movie) throws SQLException{
+        return CommonQueries.insertMovie(key, movie);
+    }
 }

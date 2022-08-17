@@ -58,6 +58,27 @@ public class CommonQueries {
         return true;
     }
 
+    public static boolean insertMovie(String key, Movie movie) throws SQLException{
+        String query = "INSERT INTO movies VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+        PreparedStatement preparedStatement = connection.prepareStatement(query);
+        preparedStatement.setString(1, key);
+        preparedStatement.setString(2, movie.getName());
+        preparedStatement.setFloat(3, movie.getCoordinates().getX());
+        preparedStatement.setDouble(4, movie.getCoordinates().getY());
+        preparedStatement.setDate(5, Date.valueOf(movie.getMovieCreationDate().toLocalDate()));
+        preparedStatement.setInt(6, movie.getOscarsCount());
+        preparedStatement.setInt(7, movie.getGoldenPalmCount());
+        preparedStatement.setString(8, movie.getGenre().toString());
+        preparedStatement.setString(9, movie.getMpaaRating().toString());
+        preparedStatement.setString(10, movie.getScreenwriter().getPerName());
+        preparedStatement.setDate(11, Date.valueOf(movie.getScreenwriter().getBirthday()));
+        preparedStatement.setString(12, movie.getScreenwriter().getEyeColor().toString());
+        preparedStatement.setString(13, movie.getScreenwriter().getHairColor().toString());
+        preparedStatement.setString(14, movie.getScreenwriter().getNationality().toString());
+        preparedStatement.executeUpdate();
+        return true;
+    }
+
     public static void setConnection(Connection connection) throws SQLException {
         CommonQueries.connection = connection;
         CommonQueries.statement = connection.createStatement();
