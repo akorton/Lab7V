@@ -2,17 +2,18 @@ package Database.Services;
 
 import Movie.*;
 
-import java.sql.ResultSet;
-import java.sql.Statement;
+import java.sql.*;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Hashtable;
 
 public class CommonQueries {
+    private static Connection connection;
+    private static Statement statement;
 
     private CommonQueries(){}
 
-    public static Hashtable<String, Movie> getCollection(Statement statement) throws Exception {
+    public static Hashtable<String, Movie> getCollection() throws Exception {
         String query = "SELECT * FROM movies";
         ResultSet result = statement.executeQuery(query);
         Hashtable<String, Movie> collection = new Hashtable<String, Movie>();
@@ -40,5 +41,25 @@ public class CommonQueries {
             collection.put(key, movie);
         }
         return collection;
+    }
+
+    public static boolean deleteById(int id) throws SQLException{
+        String query = "DELETE from movies WHERE id=?";
+        PreparedStatement preparedStatement = connection.prepareStatement(query);
+        preparedStatement.setInt(1, id);
+        preparedStatement.executeUpdate();
+        return true;
+    }
+
+    public static boolean deleteAll(Hashtable<String, Movie> collection) throws SQLException{
+        for (Movie movie: collection.values()){
+            deleteById(movie.getId());
+        }
+        return true;
+    }
+
+    public static void setConnection(Connection connection) throws SQLException {
+        CommonQueries.connection = connection;
+        CommonQueries.statement = connection.createStatement();
     }
 }

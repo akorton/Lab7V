@@ -22,6 +22,7 @@ public class Database {
         properties.setProperty("user", System.getenv("USERNAME"));
         properties.setProperty("password", System.getenv("PASSWORD"));
         connection = DriverManager.getConnection(databaseUrl, properties);
+        CommonQueries.setConnection(connection);
     }
 
     public static void setUpDatabase() throws SQLException {
@@ -29,6 +30,14 @@ public class Database {
     }
 
     public static Hashtable<String, Movie> getCollection() throws Exception{
-        return CommonQueries.getCollection(connection.createStatement());
+        return CommonQueries.getCollection();
+    }
+
+    public static boolean deleteById(int id) throws SQLException{
+        return CommonQueries.deleteById(id);
+    }
+
+    public static boolean deleteAll(Hashtable<String, Movie> collection) throws SQLException{
+        return CommonQueries.deleteAll(collection);
     }
 }
