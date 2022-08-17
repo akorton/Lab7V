@@ -43,17 +43,17 @@ public class CommonQueries {
         return collection;
     }
 
-    public static boolean deleteById(int id) throws SQLException{
-        String query = "DELETE from movies WHERE id=?";
+    public static boolean deleteByKey(String key) throws SQLException{
+        String query = "DELETE from movies WHERE key=?";
         PreparedStatement preparedStatement = connection.prepareStatement(query);
-        preparedStatement.setInt(1, id);
+        preparedStatement.setString(1, key);
         preparedStatement.executeUpdate();
         return true;
     }
 
     public static boolean deleteAll(Hashtable<String, Movie> collection) throws SQLException{
-        for (Movie movie: collection.values()){
-            deleteById(movie.getId());
+        for (String key: collection.keySet()){
+            deleteByKey(key);
         }
         return true;
     }

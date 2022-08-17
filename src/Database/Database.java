@@ -33,8 +33,8 @@ public class Database {
         return CommonQueries.getCollection();
     }
 
-    public static boolean deleteById(int id) throws SQLException{
-        return CommonQueries.deleteById(id);
+    public static boolean deleteByKey(String key) throws SQLException{
+        return CommonQueries.deleteByKey(key);
     }
 
     public static boolean deleteAll(Hashtable<String, Movie> collection) throws SQLException{

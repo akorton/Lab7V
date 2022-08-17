@@ -17,8 +17,7 @@ public class SetUp {
                 ")";
         statement.executeUpdate(createTableUsers);
         String createMovieTable = "CREATE TABLE IF not EXISTS movies" +
-                "(id INTEGER PRIMARY KEY,"+
-                "key TEXT,"+
+                "(key TEXT PRIMARY KEY,"+
                 "name TEXT,"+
                 "x FLOAT,"+
                 "y FLOAT,"+
