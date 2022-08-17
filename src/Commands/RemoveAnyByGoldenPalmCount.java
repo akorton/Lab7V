@@ -22,15 +22,17 @@ public class RemoveAnyByGoldenPalmCount implements Command {
         boolean count = false;
 
         Set<String> keys = collection.keySet();
+        int goldenPalmCount;
+        try {
+            goldenPalmCount = Integer.parseInt(argument);
+        } catch (NumberFormatException e) {
+            return new Message(true, "Count of Golden palms must be integer!");
+        }
         for (String key : keys) {
-            try {
-                if (collection.get(key).getGoldenPalmCount() == Integer.parseInt(argument)) {
-                    collection.remove(key);
-                    count = true;
-                    break;
-                }
-            } catch (NumberFormatException e) {
-                return new Message(true, "Count of Golden palms must be integer!");
+            if (collection.get(key).getGoldenPalmCount() == goldenPalmCount) {
+                collection.remove(key);
+                count = true;
+                break;
             }
         }
         if (count) {
@@ -39,6 +41,5 @@ public class RemoveAnyByGoldenPalmCount implements Command {
             return new Message(true, "Movie with such count of Golden palms is not found.");
         }
     }
-
 
 }
