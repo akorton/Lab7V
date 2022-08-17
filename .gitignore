@@ -3,4 +3,4 @@
 #Environmental varialbles
 .env
 #Idea util files
-.idea
+/.idea/
