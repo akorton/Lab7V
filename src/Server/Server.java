@@ -7,15 +7,21 @@ import Xml.Xml;
 import Commands.*;
 import Movie.*;
 import Interaction.*;
+import com.sun.rmi.rmid.ExecPermission;
 
 import java.io.*;
 import java.net.*;
 import java.nio.ByteBuffer;
 import java.nio.channels.DatagramChannel;
+import java.nio.channels.SelectionKey;
+import java.nio.channels.Selector;
 import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.util.Hashtable;
+import java.util.Iterator;
 import java.util.Objects;
+import java.util.Set;
+import java.util.concurrent.*;
 import java.util.logging.Logger;
 
 public class Server {
@@ -81,15 +87,33 @@ public class Server {
         }
 
         log.info("Server launched at: " + addr);
-
-        while (true) {
-            try{
-                Command command = readInfoFromClient();
-                Message message = executeCommand(command);
-                sendMessageToClient(message);
-            } catch (Exception e){
-                log.info("Connection lost! ");
+        ExecutorService poolRead = Executors.newCachedThreadPool();
+        ExecutorService poolExecute = Executors.newCachedThreadPool();
+        ExecutorService poolSend = ForkJoinPool.commonPool();
+        Selector selector = Selector.open();
+        serverSocket.register(selector, SelectionKey.OP_READ);
+        try {
+            while (true) {
+                if (selector.select() == 0) continue;
+                Set<SelectionKey> keySet = selector.selectedKeys();
+                for (Iterator<SelectionKey> it = keySet.iterator(); it.hasNext(); ) {
+                    SelectionKey sk = it.next();
+                    it.remove();
+                    if (sk.isReadable()) {
+                        sk.interestOps(sk.interestOps() & ~SelectionKey.OP_READ);
+                        Future<Command> command = poolRead.submit(() -> readInfoFromClient());
+                        poolExecute.submit(() -> executeCommand(command, sk));
+                    }
+                    if (sk.isWritable()) {
+                        sk.interestOps(sk.interestOps() & ~SelectionKey.OP_WRITE);
+                        System.out.println(1);
+                        poolSend.submit(() -> sendMessageToClient((Message) sk.attachment(), sk));
+                    }
+                }
             }
+        } catch (Exception e){
+            e.printStackTrace();
+            log.info("Connection lost!!!");
         }
     }
 
@@ -122,35 +146,60 @@ public class Server {
         return true;
     }
 
-    private static Command readInfoFromClient() throws Exception{
+    private static Command readInfoFromClient(){
         ByteBuffer buffRead = ByteBuffer.wrap(buffBytes);
-        do {
-            remoteAddr = serverSocket.receive(buffRead);
-        } while (remoteAddr == null);
+        Command command = null;
+        try {
+            do {
+                remoteAddr = serverSocket.receive(buffRead);
+            } while (remoteAddr == null);
 
-        log.info(String.format("Client %s:%s connected!", remoteAddr, serverSocket.getLocalAddress()));
+            log.info(String.format("Client %s:%s connected!", remoteAddr, serverSocket.getLocalAddress()));
 
-        Command command = (Command) Interpretator.receiver(buffBytes);
-        buffRead.clear();
-        log.info("Entered command " + command);
+            command = (Command) Interpretator.receiver(buffBytes);
+            buffRead.clear();
+            log.info("Entered command " + command);
+        } catch (Exception e){
+            e.printStackTrace();
+        }
         return command;
     }
 
-    private static Message executeCommand(Command command) throws Exception {
-        Message message;
-        if (command instanceof Date) {
-            message = ((Date) command).execute(collection, initDate);
-        } else {
-            message = command.execute(collection);
+    private static Message executeCommand(Future<Command> commandFuture, SelectionKey selectionKey) {
+        while (!commandFuture.isDone()) {
+        }
+        Message message = null;
+        try {
+            Command command = commandFuture.get();
+            log.info(command + " is being executed.");
+            if (command instanceof Date) {
+                message = ((Date) command).execute(collection, initDate);
+            } else {
+                message = command.execute(collection);
+            }
+            selectionKey.interestOps(SelectionKey.OP_WRITE);
+            selectionKey.attach(message);
+        } catch (Exception e){
+            e.printStackTrace();
+        } finally {
+            selectionKey.selector().wakeup();
         }
         return message;
     }
 
-    private static void sendMessageToClient(Message message) throws Exception {
-        ByteBuffer buffSend;
-        byte[] answer = Interpretator.sender(message);
-        buffSend = ByteBuffer.wrap(answer);
-        serverSocket.send(buffSend, remoteAddr);
-        buffSend.clear();
+    private static void sendMessageToClient(Message message, SelectionKey selectionKey) {
+        try {
+            ByteBuffer buffSend;
+            byte[] answer = Interpretator.sender(message);
+            buffSend = ByteBuffer.wrap(answer);
+            serverSocket.send(buffSend, remoteAddr);
+            log.info("Response send.");
+            buffSend.clear();
+        } catch (Exception e){
+            e.printStackTrace();
+        } finally {
+            selectionKey.interestOps(SelectionKey.OP_READ);
+            selectionKey.selector().wakeup();
+        }
     }
 }
