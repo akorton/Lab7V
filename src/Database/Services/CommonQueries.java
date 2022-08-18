@@ -1,5 +1,6 @@
 package Database.Services;
 
+import Client.User;
 import Movie.*;
 
 import java.sql.*;
@@ -109,5 +110,37 @@ public class CommonQueries {
     public static void setConnection(Connection connection) throws SQLException {
         CommonQueries.connection = connection;
         CommonQueries.statement = connection.createStatement();
+    }
+
+    public static boolean userExistsByName(String name) throws SQLException{
+        String query = "SELECT * from users where login=?";
+        PreparedStatement statement = connection.prepareStatement(query);
+        statement.setString(1, name);
+        ResultSet result = statement.executeQuery();
+        return result.next();
+    }
+
+    public static boolean insertUser(User user) throws SQLException{
+        String query = "INSERT into users VALUES (?, ?, ?, ?)";
+        PreparedStatement statement = connection.prepareStatement(query);
+        statement.setInt(1, user.getId());
+        statement.setString(2, user.getName());
+        statement.setBytes(3, user.getPassword());
+        statement.setString(4, user.getSalt());
+        statement.executeUpdate();
+        return true;
+    }
+
+    public static User getUserByLogin(String login) throws SQLException{
+        String query = "SELECT * from users where login=?";
+        PreparedStatement statement = connection.prepareStatement(query);
+        statement.setString(1, login);
+        ResultSet result = statement.executeQuery();
+        if (!result.next()) return null;
+        String userLogin = result.getString("login");
+        byte[] password = result.getBytes("password");
+        String salt = result.getString("salt");
+        User user = new User(userLogin, password, salt);
+        return user;
     }
 }

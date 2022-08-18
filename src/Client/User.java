@@ -3,12 +3,13 @@ package Client;
 public class User {
     private int id;
     private String name;
-    private String password;
+    private byte[] password;
     private String salt;
 
-    public User(String name, String password){
+    public User(String name, byte[] password, String salt){
         this.name = name;
         this.password = password;
+        this.salt = salt;
     }
 
     public void setId(int id) {
@@ -19,19 +20,19 @@ public class User {
         return name;
     }
 
-    public void setSalt(String salt) {
-        this.salt = salt;
+    public int getId() {
+        return id;
+    }
+
+    public byte[] getPassword() {
+        return password;
     }
 
     public String getSalt() {
         return salt;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public String getPassword() {
-        return password;
+    public void setSalt(String salt) {
+        this.salt = salt;
     }
 }

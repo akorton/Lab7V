@@ -1,5 +1,6 @@
 package Database;
 
+import Client.User;
 import Database.Services.CommonQueries;
 import Database.Services.SequenceQueries;
 import Database.Services.SetUp;
@@ -58,5 +59,17 @@ public class Database {
 
     public static int getNextMovieId() throws SQLException{
         return SequenceQueries.getNextMovieId();
+    }
+
+    public static boolean userExistsByName(String name) throws SQLException{
+        return CommonQueries.userExistsByName(name);
+    }
+
+    public static boolean insertUser(User user) throws SQLException{
+        return CommonQueries.insertUser(user);
+    }
+
+    public static User getUserByLogin(String login) throws SQLException{
+        return CommonQueries.getUserByLogin(login);
     }
 }

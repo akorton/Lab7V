@@ -31,7 +31,8 @@ public class SetUp {
                 "birthday DATE,"+
                 "eyeColor TEXT,"+
                 "hairColor TEXT,"+
-                "nationality TEXT)";
+                "nationality TEXT," +
+                "user_id INTEGER)";
         statement.executeUpdate(createMovieTable);
         String createUserIdSequence = "CREATE SEQUENCE IF not EXISTS userId START WITH 1;";
         statement.executeUpdate(createUserIdSequence);

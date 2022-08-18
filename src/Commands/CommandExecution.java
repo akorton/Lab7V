@@ -86,6 +86,10 @@ public abstract class CommandExecution {
                     return null;
                 }
                 return new CountGreaterThanMpaaRating(commandArgs);
+            case "register":
+                return new Register(interaction);
+            case "login":
+                return new Login(interaction);
             default:
                 interaction.print(true,"Command '" + command + "' is not found. Try again. \n" +
                         "To find out the available commands enter 'help'.");

@@ -19,7 +19,7 @@ public class Client {
     private static DatagramSocket clientSocket;
     private static InetAddress inetAddr;
     private static final Logger log = Logger.getLogger(Client.class.getName());
-    private static User user;
+    private static boolean registered;
 
 
     public static void main(String[] args) {
@@ -68,10 +68,11 @@ public class Client {
                 }
 
 
-                Command command = CommandExecution.proceedCommand(potencialCommand, false, interaction);
+                CommandObject command = CommandExecution.proceedCommand(potencialCommand, false, interaction);
                 if (command == null) {
                     continue;
                 }
+                command.setRegistered(registered);
                 if (command instanceof Exit) {
                     return;
                 }
@@ -96,7 +97,6 @@ public class Client {
                                 if (command1 == null) {
                                     continue;
                                 }
-                                command1.setUser(user);
                                 if (command1 instanceof Exit) {
                                     return;
                                 }
@@ -133,12 +133,14 @@ public class Client {
                 Boolean underRun = true;
                 while (underRun) {
                     try {
+
                         serverInteraction.sendData(command);
                         Message message = (Message) serverInteraction.readData();
                         interaction.print(true, message.getText());
                         if (!message.isSuccessful()) {
                             run = false;
                         }
+                        if (message.isRegistered()) registered = true;
                         underRun = false;
                     } catch (SocketTimeoutException e) {
                         log.info("Error. " + e.getMessage());
