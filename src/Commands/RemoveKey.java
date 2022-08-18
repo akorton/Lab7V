@@ -1,5 +1,6 @@
 package Commands;
 
+import Database.Database;
 import Interaction.Message;
 import Movie.Movie;
 
@@ -17,7 +18,7 @@ public class RemoveKey implements Command {
     public Message execute(Hashtable<String, Movie> collection) throws Exception {
         if (!collection.isEmpty()) {
             if (collection.containsKey(argument)) {
-                collection.remove(argument);
+                if (Database.deleteByKey(argument)) collection.remove(argument);
                 return new Message(true, "The element removed successfully.");
             } else {
                 return new Message(true, "No key found.");
