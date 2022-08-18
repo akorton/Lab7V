@@ -106,7 +106,6 @@ public class Server {
                     }
                     if (sk.isWritable()) {
                         sk.interestOps(sk.interestOps() & ~SelectionKey.OP_WRITE);
-                        System.out.println(1);
                         poolSend.submit(() -> sendMessageToClient((Message) sk.attachment(), sk));
                     }
                 }
