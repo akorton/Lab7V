@@ -16,6 +16,7 @@ public class Movie implements XmlConvertable, Serializable {
     private MovieGenre genre;
     private MpaaRating mpaaRating;
     private Person screenwriter;
+    private int userId;
 
     public Movie(int id, String name, Coordinates coordinates, int oscarsCount, Integer goldenPalmCount, MovieGenre genre, MpaaRating mpaaRating, Person screenwriter) throws Exception{
         setId(id);
@@ -136,6 +137,13 @@ public class Movie implements XmlConvertable, Serializable {
         return screenwriter;
     }
 
+    public int getUserId() {
+        return userId;
+    }
+
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
 
     @Override
     public String toString() {

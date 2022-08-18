@@ -61,7 +61,7 @@ public class CommonQueries {
     }
 
     public static boolean insertMovie(String key, Movie movie) throws SQLException{
-        String query = "INSERT INTO movies VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+        String query = "INSERT INTO movies VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         PreparedStatement preparedStatement = connection.prepareStatement(query);
         preparedStatement.setString(1, key);
         preparedStatement.setInt(2, movie.getId());
@@ -78,6 +78,7 @@ public class CommonQueries {
         preparedStatement.setString(13, movie.getScreenwriter().getEyeColor().toString());
         preparedStatement.setString(14, movie.getScreenwriter().getHairColor().toString());
         preparedStatement.setString(15, movie.getScreenwriter().getNationality().toString());
+        preparedStatement.setInt(16, movie.getUserId());
         preparedStatement.executeUpdate();
         return true;
     }
@@ -140,7 +141,9 @@ public class CommonQueries {
         String userLogin = result.getString("login");
         byte[] password = result.getBytes("password");
         String salt = result.getString("salt");
+        int id = result.getInt("id");
         User user = new User(userLogin, password, salt);
+        user.setId(id);
         return user;
     }
 }

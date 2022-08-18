@@ -1,10 +1,9 @@
 package Commands;
 
-import Client.User;
 import Interaction.Message;
 
 public abstract class CommandObject implements Command{
-    protected int userId = -1;
+    protected int userId;
 
     public int getUserId() {
         return userId;
@@ -15,7 +14,7 @@ public abstract class CommandObject implements Command{
     }
 
     public boolean isAuthorized(){
-        return userId != -1;
+        return userId != 0;
     }
 
     public Message getUnauthorizedMessage(){

@@ -42,8 +42,8 @@ public class Insert extends CommandObject implements Preprocessing {
                 if (collection.containsKey(argument)) {
                     return  new Message(true, "This key is already used.");
                 } else {
-                    System.out.println(1);
                     this.movie.setId(Database.getNextMovieId());
+                    this.movie.setUserId(userId);
                     boolean insertToDBResult = Database.insert(argument, this.movie);
                     if (!insertToDBResult) return new Message(true, "Element wasn't inserted!");
                     collection.put(argument, this.movie);

@@ -97,6 +97,7 @@ public class Client {
                                 if (command1 == null) {
                                     continue;
                                 }
+                                command1.setUserId(userId);
                                 if (command1 instanceof Exit) {
                                     return;
                                 }
@@ -140,7 +141,7 @@ public class Client {
                         if (!message.isSuccessful()) {
                             run = false;
                         }
-                        if (message.getUserId() != -1) userId = message.getUserId();
+                        if (message.getUserId() != 0) userId = message.getUserId();
                         underRun = false;
                     } catch (SocketTimeoutException e) {
                         log.info("Error. " + e.getMessage());
