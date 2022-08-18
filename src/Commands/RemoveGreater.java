@@ -10,7 +10,7 @@ import java.util.Hashtable;
 import java.util.Set;
 
 
-public class RemoveGreater implements Command, IdUsing {
+public class RemoveGreater extends CommandObject implements IdUsing {
     private final String argument;
 
 

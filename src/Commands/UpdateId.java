@@ -7,7 +7,7 @@ import java.util.Hashtable;
 import java.util.Set;
 
 
-public class UpdateId implements Command, IdUsing {
+public class UpdateId extends CommandObject implements IdUsing {
 
     private final UserInteraction interaction;
     private final Hashtable<String, Movie> collection;

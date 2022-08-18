@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 import java.util.Hashtable;
 
 
-public class Info implements Command {
+public class Info extends CommandObject {
 
     public Info() {}
 
@@ -20,6 +20,6 @@ public class Info implements Command {
 
     @Override
     public Message execute(Hashtable<String, Movie> collection) throws Exception {
-        return new Message(false, "");
+        return new Message(true, "");
     }
 }

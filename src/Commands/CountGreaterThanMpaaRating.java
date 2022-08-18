@@ -6,7 +6,7 @@ import Movie.*;
 import java.util.Hashtable;
 
 
-public class CountGreaterThanMpaaRating implements Command{
+public class CountGreaterThanMpaaRating extends CommandObject{
     private final String argument;
 
     public CountGreaterThanMpaaRating(String[] commandArgs) {

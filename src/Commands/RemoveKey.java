@@ -6,7 +6,7 @@ import Movie.Movie;
 
 import java.util.Hashtable;
 
-public class RemoveKey implements Command {
+public class RemoveKey extends CommandObject {
     private final String argument;
 
 

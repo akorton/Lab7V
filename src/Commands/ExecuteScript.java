@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 
-public class ExecuteScript implements Command {
+public class ExecuteScript extends CommandObject {
     private final String argument;
 
     public ExecuteScript(String[] commandArgs) {

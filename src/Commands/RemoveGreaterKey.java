@@ -9,7 +9,7 @@ import java.util.Hashtable;
 import java.util.Set;
 
 
-public class RemoveGreaterKey implements Command, IdUsing{
+public class RemoveGreaterKey extends CommandObject implements IdUsing{
     private final String argument;
 
 

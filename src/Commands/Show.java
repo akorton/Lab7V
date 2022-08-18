@@ -6,7 +6,7 @@ import Movie.Movie;
 import java.util.Hashtable;
 
 
-public class Show implements Command {
+public class Show extends CommandObject {
 
     @Override
     public Message execute(Hashtable<String, Movie> collection) {

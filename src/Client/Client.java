@@ -19,6 +19,7 @@ public class Client {
     private static DatagramSocket clientSocket;
     private static InetAddress inetAddr;
     private static final Logger log = Logger.getLogger(Client.class.getName());
+    private static User user;
 
 
     public static void main(String[] args) {
@@ -102,7 +103,6 @@ public class Client {
                                     ((Preprocessing) command1).preprocess(scriptInteraction);
                                 }
                                 try {
-
                                     serverInteraction.sendData(command1);
                                     Message message = (Message) serverInteraction.readData();
                                     if (!message.isSuccessful()) {

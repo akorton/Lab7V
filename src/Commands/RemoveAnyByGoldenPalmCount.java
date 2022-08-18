@@ -8,7 +8,7 @@ import java.util.Hashtable;
 import java.util.Set;
 
 
-public class RemoveAnyByGoldenPalmCount implements Command {
+public class RemoveAnyByGoldenPalmCount extends CommandObject {
 
     private final String argument;
 

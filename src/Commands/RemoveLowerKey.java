@@ -10,7 +10,7 @@ import java.util.Hashtable;
 import java.util.Set;
 
 
-public class RemoveLowerKey implements Command{
+public class RemoveLowerKey extends CommandObject{
     private final String argument;
 
 

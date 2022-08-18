@@ -5,7 +5,7 @@ import Movie.Movie;
 import java.util.Hashtable;
 
 
-public class Exit implements Command{
+public class Exit extends CommandObject{
 
     @Override
     public Message execute(Hashtable<String, Movie> collection) throws Exception {

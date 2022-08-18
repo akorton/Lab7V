@@ -11,7 +11,7 @@ import java.util.Hashtable;
 import java.time.*;
 
 
-public class Insert implements Command, Preprocessing {
+public class Insert extends CommandObject implements Preprocessing {
 
     private final UserInteraction interaction;
     private final boolean fromScript;

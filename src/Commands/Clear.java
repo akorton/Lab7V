@@ -6,7 +6,7 @@ import Movie.Movie;
 import java.util.Hashtable;
 
 
-public class Clear implements Command{
+public class Clear extends CommandObject{
 
     @Override
     public Message execute(Hashtable<String, Movie> collection) throws Exception {
