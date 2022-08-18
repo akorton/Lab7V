@@ -83,7 +83,13 @@ public class Server {
         log.info("Server launched at: " + addr);
 
         while (true) {
-            readInfoFromClient();
+            try{
+                Command command = readInfoFromClient();
+                Message message = executeCommand(command);
+                sendMessageToClient(message);
+            } catch (Exception e){
+                log.info("Connection lost! ");
+            }
         }
     }
 
@@ -116,32 +122,28 @@ public class Server {
         return true;
     }
 
-    private static void readInfoFromClient(){
+    private static Command readInfoFromClient() throws Exception{
         ByteBuffer buffRead = ByteBuffer.wrap(buffBytes);
-        try {
-            do {
-                remoteAddr = serverSocket.receive(buffRead);
-            } while (remoteAddr == null);
+        do {
+            remoteAddr = serverSocket.receive(buffRead);
+        } while (remoteAddr == null);
 
-            log.info(String.format("Client %s:%s connected!", remoteAddr, serverSocket.getLocalAddress()));
+        log.info(String.format("Client %s:%s connected!", remoteAddr, serverSocket.getLocalAddress()));
 
-            Command command = (Command) Interpretator.receiver(buffBytes);
-            buffRead.clear();
-            executeCommand(command);
-            log.info("Entered command " + command);
-        } catch (Exception e){
-            log.info("Connection lost! ");
-        }
+        Command command = (Command) Interpretator.receiver(buffBytes);
+        buffRead.clear();
+        log.info("Entered command " + command);
+        return command;
     }
 
-    private static void executeCommand(Command command) throws Exception {
+    private static Message executeCommand(Command command) throws Exception {
         Message message;
         if (command instanceof Date) {
             message = ((Date) command).execute(collection, initDate);
         } else {
             message = command.execute(collection);
         }
-        sendMessageToClient(message);
+        return message;
     }
 
     private static void sendMessageToClient(Message message) throws Exception {
