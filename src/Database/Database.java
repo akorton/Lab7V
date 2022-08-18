@@ -1,6 +1,7 @@
 package Database;
 
 import Database.Services.CommonQueries;
+import Database.Services.SequenceQueries;
 import Database.Services.SetUp;
 import Movie.Movie;
 
@@ -23,6 +24,7 @@ public class Database {
         properties.setProperty("password", System.getenv("PASSWORD"));
         connection = DriverManager.getConnection(databaseUrl, properties);
         CommonQueries.setConnection(connection);
+        SequenceQueries.setConnection(connection);
         setUpDatabase();
     }
 
@@ -48,5 +50,13 @@ public class Database {
 
     public static boolean update(String key, Movie movie) throws SQLException{
         return CommonQueries.updateMovie(key, movie);
+    }
+
+    public static int getNextUserId() throws SQLException{
+        return SequenceQueries.getNextUserId();
+    }
+
+    public static int getNextMovieId() throws SQLException{
+        return SequenceQueries.getNextMovieId();
     }
 }
