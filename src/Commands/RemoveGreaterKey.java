@@ -1,5 +1,6 @@
 package Commands;
 
+import Database.Database;
 import Interaction.Message;
 import Interaction.UserInteraction;
 import Movie.Movie;
@@ -32,7 +33,7 @@ public class RemoveGreaterKey implements Command, IdUsing{
                     }
                 }
                 for (String key : removable) {
-                    collection.remove(key);
+                    if (Database.deleteByKey(key)) collection.remove(key);
                 }
                 return new Message(true, "All necessary elements removed successfully.");
             } else {
