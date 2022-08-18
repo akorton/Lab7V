@@ -81,16 +81,18 @@ public class Server {
         }
 
         log.info("Server launched at: " + addr);
+        ByteBuffer buffRead = ByteBuffer.wrap(buffBytes);
+        ByteBuffer buffSend = ByteBuffer.wrap(buffBytes);
         while (true) {
-            ByteBuffer buff = ByteBuffer.wrap(buffBytes);
             try {
                 do {
-                    remoteAddr = serverSocket.receive(buff);
+                    remoteAddr = serverSocket.receive(buffRead);
                 } while (remoteAddr == null);
 
                 log.info(String.format("Client %s:%s connected!",remoteAddr,serverSocket.getLocalAddress()));
 
-                Command command = (Command) Interpretator.receiver(buffBytes);;
+                Command command = (Command) Interpretator.receiver(buffBytes);
+                buffRead.clear();
                 log.info("Entered command " + command);
                 Message message;
                 if (command instanceof Date) {
@@ -98,11 +100,10 @@ public class Server {
                 } else {
                     message = command.execute(collection);
                 }
-                buff.clear();
                 byte[] answer = Interpretator.sender(message);
-                buff = ByteBuffer.wrap(answer);
-                serverSocket.send(buff, remoteAddr);
-                buff.clear();
+                buffSend = ByteBuffer.wrap(answer);
+                serverSocket.send(buffSend, remoteAddr);
+                buffSend.clear();
 
             } catch (IOException | ClassNotFoundException e) {
                 log.info("Connection lost! ");
@@ -137,5 +138,9 @@ public class Server {
             }
         }
         return true;
+    }
+
+    private static void readInfoFromClient(){
+
     }
 }
