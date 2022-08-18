@@ -31,8 +31,7 @@ public class RemoveAnyByGoldenPalmCount implements Command {
         }
         for (String key : keys) {
             if (collection.get(key).getGoldenPalmCount() == goldenPalmCount) {
-                Database.deleteByKey(key);
-                collection.remove(key);
+                if (Database.deleteByKey(key)) collection.remove(key);
                 count = true;
                 break;
             }
