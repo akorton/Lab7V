@@ -1,5 +1,6 @@
 package Commands;
 
+import Database.Database;
 import Interaction.Message;
 import Interaction.UserInteraction;
 import Movie.Movie;
@@ -30,6 +31,7 @@ public class RemoveAnyByGoldenPalmCount implements Command {
         }
         for (String key : keys) {
             if (collection.get(key).getGoldenPalmCount() == goldenPalmCount) {
+                Database.deleteByKey(key);
                 collection.remove(key);
                 count = true;
                 break;
