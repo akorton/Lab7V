@@ -81,33 +81,9 @@ public class Server {
         }
 
         log.info("Server launched at: " + addr);
-        ByteBuffer buffRead = ByteBuffer.wrap(buffBytes);
-        ByteBuffer buffSend = ByteBuffer.wrap(buffBytes);
+
         while (true) {
-            try {
-                do {
-                    remoteAddr = serverSocket.receive(buffRead);
-                } while (remoteAddr == null);
-
-                log.info(String.format("Client %s:%s connected!",remoteAddr,serverSocket.getLocalAddress()));
-
-                Command command = (Command) Interpretator.receiver(buffBytes);
-                buffRead.clear();
-                log.info("Entered command " + command);
-                Message message;
-                if (command instanceof Date) {
-                    message = ((Date) command).execute(collection, initDate);
-                } else {
-                    message = command.execute(collection);
-                }
-                byte[] answer = Interpretator.sender(message);
-                buffSend = ByteBuffer.wrap(answer);
-                serverSocket.send(buffSend, remoteAddr);
-                buffSend.clear();
-
-            } catch (IOException | ClassNotFoundException e) {
-                log.info("Connection lost! ");
-            }
+            readInfoFromClient();
         }
     }
 
@@ -141,6 +117,38 @@ public class Server {
     }
 
     private static void readInfoFromClient(){
+        ByteBuffer buffRead = ByteBuffer.wrap(buffBytes);
+        try {
+            do {
+                remoteAddr = serverSocket.receive(buffRead);
+            } while (remoteAddr == null);
 
+            log.info(String.format("Client %s:%s connected!", remoteAddr, serverSocket.getLocalAddress()));
+
+            Command command = (Command) Interpretator.receiver(buffBytes);
+            buffRead.clear();
+            executeCommand(command);
+            log.info("Entered command " + command);
+        } catch (Exception e){
+            log.info("Connection lost! ");
+        }
+    }
+
+    private static void executeCommand(Command command) throws Exception {
+        Message message;
+        if (command instanceof Date) {
+            message = ((Date) command).execute(collection, initDate);
+        } else {
+            message = command.execute(collection);
+        }
+        sendMessageToClient(message);
+    }
+
+    private static void sendMessageToClient(Message message) throws Exception {
+        ByteBuffer buffSend;
+        byte[] answer = Interpretator.sender(message);
+        buffSend = ByteBuffer.wrap(answer);
+        serverSocket.send(buffSend, remoteAddr);
+        buffSend.clear();
     }
 }
