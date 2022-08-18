@@ -29,7 +29,7 @@ public class Login extends CommandObject implements Preprocessing {
         User user = Database.getUserByLogin(name);
         if (Objects.equals(user, null)) return new Message(true, "No user with such username.");
 
-        MessageDigest md = null;
+        MessageDigest md;
         try {
             md = MessageDigest.getInstance("SHA-1");
         }
@@ -39,7 +39,7 @@ public class Login extends CommandObject implements Preprocessing {
         String salt = user.getSalt();
         byte[] encodedPassword = md.digest((salt + password).getBytes(StandardCharsets.UTF_8));
         if (Arrays.equals(encodedPassword, user.getPassword())) {
-            return new Message(true, "Successfully logged in!", true);
+            return new Message(true, "Successfully logged in!", user.getId());
         }
         return new Message(true, "Wrong password.");
     }

@@ -4,18 +4,18 @@ import Client.User;
 import Interaction.Message;
 
 public abstract class CommandObject implements Command{
-    protected boolean registered;
+    protected int userId = -1;
 
-    public boolean isRegistered() {
-        return registered;
+    public int getUserId() {
+        return userId;
     }
 
-    public void setRegistered(boolean registered) {
-        this.registered = registered;
+    public void setUserId(int userId) {
+        this.userId = userId;
     }
 
     public boolean isAuthorized(){
-        return registered;
+        return userId != -1;
     }
 
     public Message getUnauthorizedMessage(){

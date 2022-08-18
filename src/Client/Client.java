@@ -19,7 +19,7 @@ public class Client {
     private static DatagramSocket clientSocket;
     private static InetAddress inetAddr;
     private static final Logger log = Logger.getLogger(Client.class.getName());
-    private static boolean registered;
+    private static int userId;
 
 
     public static void main(String[] args) {
@@ -72,7 +72,7 @@ public class Client {
                 if (command == null) {
                     continue;
                 }
-                command.setRegistered(registered);
+                command.setUserId(userId);
                 if (command instanceof Exit) {
                     return;
                 }
@@ -140,7 +140,7 @@ public class Client {
                         if (!message.isSuccessful()) {
                             run = false;
                         }
-                        if (message.isRegistered()) registered = true;
+                        if (message.getUserId() != -1) userId = message.getUserId();
                         underRun = false;
                     } catch (SocketTimeoutException e) {
                         log.info("Error. " + e.getMessage());

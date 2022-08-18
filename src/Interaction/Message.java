@@ -1,5 +1,7 @@
 package Interaction;
 
+import Client.User;
+
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
@@ -8,7 +10,7 @@ public class Message implements Serializable {
     private final String text;
     private final LocalDateTime creationDate;
     private final boolean result;
-    private boolean registered = false;
+    private int userId;
 
     public Message(boolean result, String text) {
         this.text = text;
@@ -16,9 +18,9 @@ public class Message implements Serializable {
         this.result = result;
     }
 
-    public Message(boolean result, String text, boolean registered){
+    public Message(boolean result, String text, int userId){
         this(result, text);
-        this.registered = registered;
+        this.userId = userId;
     }
 
     public String getText() {return text;}
@@ -27,7 +29,7 @@ public class Message implements Serializable {
 
     public boolean isSuccessful() {return this.result;}
 
-    public boolean isRegistered(){
-        return registered;
+    public int getUserId() {
+        return userId;
     }
 }
