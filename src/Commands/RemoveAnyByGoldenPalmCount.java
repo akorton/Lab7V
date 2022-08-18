@@ -32,7 +32,7 @@ public class RemoveAnyByGoldenPalmCount extends CommandObject {
         }
         for (String key : keys) {
             if (collection.get(key).getGoldenPalmCount() == goldenPalmCount) {
-                if (Database.deleteByKey(key)) collection.remove(key);
+                if (Database.deleteByKey(key, userId)) collection.remove(key);
                 count = true;
                 break;
             }

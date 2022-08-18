@@ -20,6 +20,10 @@ public class Show extends CommandObject {
             for (String key : collection.keySet()) {
                 Movie movie = collection.get(key);
                 stringBuilder.append(key + " = " + movie.toString() + "\n");
+                if (stringBuilder.capacity() > 20000) {
+                    stringBuilder.append("And maybe some more...\n");
+                    break;
+                }
             }
             return new Message(true, stringBuilder + "\n");
         }

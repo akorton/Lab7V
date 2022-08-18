@@ -19,7 +19,7 @@ public class RemoveKey extends CommandObject {
         if (!isAuthorized()) return getUnauthorizedMessage();
         if (!collection.isEmpty()) {
             if (collection.containsKey(argument)) {
-                if (Database.deleteByKey(argument)) collection.remove(argument);
+                if (Database.deleteByKey(argument, userId)) collection.remove(argument);
                 return new Message(true, "The element removed successfully.");
             } else {
                 return new Message(true, "No key found.");

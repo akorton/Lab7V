@@ -31,7 +31,7 @@ public class RemoveGreater extends CommandObject implements IdUsing {
                     }
                 }
                 for (String key : removable) {
-                    if (Database.deleteByKey(key)) collection.remove(key);
+                    if (Database.deleteByKey(key, userId)) collection.remove(key);
                 }
                 return new Message(true, "All necessary elements removed successfully.");
             } else {

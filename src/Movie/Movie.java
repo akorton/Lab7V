@@ -150,7 +150,7 @@ public class Movie implements XmlConvertable, Serializable {
         return id + ", " + name + ", " + coordinates.toString() +
                 ", " + movieCreationDate + ", " +
                 oscarsCount + ", " + goldenPalmCount + ", " + genre.toString() + ", "
-                + mpaaRating.toString() + ", " + screenwriter.toString();
+                + mpaaRating.toString() + ", " + screenwriter.toString() + ", " + userId;
     }
 
 

@@ -37,20 +37,20 @@ public class Database {
         return CommonQueries.getCollection();
     }
 
-    public static boolean deleteByKey(String key) throws SQLException{
-        return CommonQueries.deleteByKey(key);
+    public static boolean deleteByKey(String key, int id) throws SQLException{
+        return CommonQueries.deleteByKey(key, id);
     }
 
-    public static boolean deleteAll(Hashtable<String, Movie> collection) throws SQLException{
-        return CommonQueries.deleteAll(collection);
+    public static boolean deleteAll(Hashtable<String, Movie> collection, int id) throws SQLException{
+        return CommonQueries.deleteAll(collection, id);
     }
 
     public static boolean insert(String key, Movie movie) throws SQLException{
         return CommonQueries.insertMovie(key, movie);
     }
 
-    public static boolean update(String key, Movie movie) throws SQLException{
-        return CommonQueries.updateMovie(key, movie);
+    public static boolean update(String key, Movie movie, int id) throws SQLException{
+        return CommonQueries.updateMovie(key, movie, id);
     }
 
     public static int getNextUserId() throws SQLException{

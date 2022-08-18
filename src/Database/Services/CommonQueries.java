@@ -45,17 +45,18 @@ public class CommonQueries {
         return collection;
     }
 
-    public static boolean deleteByKey(String key) throws SQLException{
-        String query = "DELETE from movies WHERE key=?";
+    public static boolean deleteByKey(String key, int id) throws SQLException{
+        String query = "DELETE from movies WHERE key=? AND userId=?";
         PreparedStatement preparedStatement = connection.prepareStatement(query);
         preparedStatement.setString(1, key);
+        preparedStatement.setInt(2, id);
         preparedStatement.executeUpdate();
         return true;
     }
 
-    public static boolean deleteAll(Hashtable<String, Movie> collection) throws SQLException{
+    public static boolean deleteAll(Hashtable<String, Movie> collection, int id) throws SQLException{
         for (String key: collection.keySet()){
-            deleteByKey(key);
+            deleteByKey(key, id);
         }
         return true;
     }
@@ -84,10 +85,10 @@ public class CommonQueries {
     }
 
 
-    public static boolean updateMovie(String key, Movie movie) throws SQLException{
+    public static boolean updateMovie(String key, Movie movie, int id) throws SQLException{
         String query = "UPDATE movies SET name=?, x=?, y=?, movieCreationDate=?, " +
                 "oscarCount=?, goldenPalmCount=?, genre=?, mpaaRating=?, personName=?," +
-                "birthday=?, eyeColor=?, hairColor=?, nationality=?, id=? WHERE key=?";
+                "birthday=?, eyeColor=?, hairColor=?, nationality=?, id=? WHERE key=? AND userId=?";
         PreparedStatement preparedStatement = connection.prepareStatement(query);
         preparedStatement.setString(15, key);
         preparedStatement.setString(1, movie.getName());
@@ -104,6 +105,7 @@ public class CommonQueries {
         preparedStatement.setString(12, movie.getScreenwriter().getHairColor().toString());
         preparedStatement.setString(13, movie.getScreenwriter().getNationality().toString());
         preparedStatement.setInt(14, movie.getId());
+        preparedStatement.setInt(16, id);
         preparedStatement.executeUpdate();
         return true;
     }

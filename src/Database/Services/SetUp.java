@@ -32,7 +32,7 @@ public class SetUp {
                 "eyeColor TEXT,"+
                 "hairColor TEXT,"+
                 "nationality TEXT," +
-                "user_id INTEGER)";
+                "userId INTEGER)";
         statement.executeUpdate(createMovieTable);
         String createUserIdSequence = "CREATE SEQUENCE IF not EXISTS userId START WITH 1;";
         statement.executeUpdate(createUserIdSequence);
