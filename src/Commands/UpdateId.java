@@ -23,6 +23,7 @@ public class UpdateId extends CommandObject implements IdUsing {
 
     @Override
     public Message execute(Hashtable<String, Movie> collection) throws Exception {
+        if (!isAuthorized()) return getUnauthorizedMessage();
         search(interaction, collection, argument);
         return new Message(true,"Element with id " + argument + " was successfully removed.");
     }

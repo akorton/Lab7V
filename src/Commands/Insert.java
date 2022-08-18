@@ -36,6 +36,7 @@ public class Insert extends CommandObject implements Preprocessing {
 
     @Override
     public Message execute(Hashtable<String, Movie> collection) throws Exception{
+        if (!isAuthorized()) return getUnauthorizedMessage();
         if (update == 0) {
             if (argument != " ") {
                 if (collection.containsKey(argument)) {

@@ -20,6 +20,7 @@ public class RemoveAnyByGoldenPalmCount extends CommandObject {
 
     @Override
     public Message execute(Hashtable<String, Movie> collection) throws Exception {
+        if (!isAuthorized()) return getUnauthorizedMessage();
         boolean count = false;
 
         Set<String> keys = collection.keySet();

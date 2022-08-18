@@ -20,6 +20,7 @@ public class RemoveGreater extends CommandObject implements IdUsing {
 
     @Override
     public Message execute(Hashtable<String, Movie> collection) throws Exception {
+        if (!isAuthorized()) return getUnauthorizedMessage();
         if (!collection.isEmpty()) {
             if (collection.containsKey(argument)) {
                 Set<String> keys = collection.keySet();

@@ -9,6 +9,7 @@ public class Help extends CommandObject {
 
     @Override
     public Message execute(Hashtable<String, Movie> collection) {
+        if (!isAuthorized()) return getUnauthorizedMessage();
         return new Message(true,"Command help: \n" +
                 "help - displaying commands description \n" +
                 "info - displaying information about the collection \n" +

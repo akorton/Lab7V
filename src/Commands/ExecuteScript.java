@@ -22,6 +22,7 @@ public class ExecuteScript extends CommandObject {
 
     @Override
     public Message execute(Hashtable<String, Movie> collection) throws Exception {
+        if (!isAuthorized()) return getUnauthorizedMessage();
         try {
             Stream<String> stream = Files.lines(Paths.get(argument));
             List<String> list = stream.collect(Collectors.toList());

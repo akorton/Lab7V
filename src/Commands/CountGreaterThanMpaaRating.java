@@ -15,6 +15,7 @@ public class CountGreaterThanMpaaRating extends CommandObject{
 
     @Override
     public Message execute(Hashtable<String, Movie> collection) throws Exception {
+        if (!isAuthorized()) return getUnauthorizedMessage();
         int count = 0;
         try {
             for (Movie movie : collection.values()) {

@@ -10,6 +10,7 @@ public class Clear extends CommandObject{
 
     @Override
     public Message execute(Hashtable<String, Movie> collection) throws Exception {
+        if (!isAuthorized()) return getUnauthorizedMessage();
         if (Database.deleteAll(collection)) {
             collection.clear();
             return new Message(true, "Collection cleared.");

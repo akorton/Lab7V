@@ -92,10 +92,11 @@ public class Client {
                             list.remove(0);
                             try {
                                 ScriptInteraction scriptInteraction = new ScriptInteraction(list);
-                                Command command1 = CommandExecution.proceedCommand(line, true, scriptInteraction);
+                                CommandObject command1 = CommandExecution.proceedCommand(line, true, scriptInteraction);
                                 if (command1 == null) {
                                     continue;
                                 }
+                                command1.setUser(user);
                                 if (command1 instanceof Exit) {
                                     return;
                                 }

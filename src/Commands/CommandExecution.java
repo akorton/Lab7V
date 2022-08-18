@@ -11,7 +11,7 @@ public abstract class CommandExecution {
 
 
 
-    public static Command proceedCommand(String enteredCommand, boolean fromScript, UserInteraction interaction) {
+    public static CommandObject proceedCommand(String enteredCommand, boolean fromScript, UserInteraction interaction) {
         enteredCommand = enteredCommand.trim();
         String parts[] = enteredCommand.split(" ");
         String command = parts[0];

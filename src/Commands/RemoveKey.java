@@ -16,6 +16,7 @@ public class RemoveKey extends CommandObject {
 
     @Override
     public Message execute(Hashtable<String, Movie> collection) throws Exception {
+        if (!isAuthorized()) return getUnauthorizedMessage();
         if (!collection.isEmpty()) {
             if (collection.containsKey(argument)) {
                 if (Database.deleteByKey(argument)) collection.remove(argument);

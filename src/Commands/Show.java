@@ -10,6 +10,7 @@ public class Show extends CommandObject {
 
     @Override
     public Message execute(Hashtable<String, Movie> collection) {
+        if (!isAuthorized()) return getUnauthorizedMessage();
         StringBuilder stringBuilder;
         if (collection.size() == 0) {
             return new Message(true, "No elements found.");

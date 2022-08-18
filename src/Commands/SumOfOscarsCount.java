@@ -10,6 +10,7 @@ public class SumOfOscarsCount extends CommandObject {
 
     @Override
     public Message execute(Hashtable<String, Movie> collection) throws Exception {
+        if (!isAuthorized()) return getUnauthorizedMessage();
         if (!collection.isEmpty()) {
             int count = 0;
             for (Movie movie : collection.values()) {
