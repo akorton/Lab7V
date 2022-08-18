@@ -37,7 +37,6 @@ public class Server {
         try {
             log.info("Connecting to database...");
             Database.connectToDatabase();
-            Database.setUpDatabase();
             log.info("Successfully connected!!!\n");
         } catch (SQLException e){
             interaction.print("Some error occurred while trying to connect to database!\n" +
@@ -49,6 +48,7 @@ public class Server {
             collection = Database.getCollection();
             log.info("Successfully loaded!");
         } catch (Exception e){
+            e.printStackTrace();
             interaction.print("Some error occurred while uploading collection from database!");
         }
 

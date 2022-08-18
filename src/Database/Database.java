@@ -23,6 +23,7 @@ public class Database {
         properties.setProperty("password", System.getenv("PASSWORD"));
         connection = DriverManager.getConnection(databaseUrl, properties);
         CommonQueries.setConnection(connection);
+        setUpDatabase();
     }
 
     public static void setUpDatabase() throws SQLException {
@@ -43,5 +44,9 @@ public class Database {
 
     public static boolean insert(String key, Movie movie) throws SQLException{
         return CommonQueries.insertMovie(key, movie);
+    }
+
+    public static boolean update(String key, Movie movie) throws SQLException{
+        return CommonQueries.updateMovie(key, movie);
     }
 }
